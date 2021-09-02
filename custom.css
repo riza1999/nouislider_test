@@ -1,0 +1,33 @@
+html{
+    background-color: #F6F8FF;
+}
+
+.range {
+    height: 200px;
+    margin: auto;
+}
+
+/* Custom noUiSlider */
+.noUi-target{
+    background: linear-gradient(to top, #042193, #d20016);
+    border:none;
+    border-radius: 50px;
+}
+
+.noUi-handle::before, .noUi-handle::after{
+    display: none; 
+}
+
+.noUi-vertical .noUi-handle{
+    cursor: grab; /* mengubah cursor menjadi icon grab ketika diarahkan pada handle */
+    width: 28px; /* mengubah lebar handle */
+    height: 14px; /* mengubah tinggi handle */
+    box-shadow: none; /* menghilangkan bayangan pada handle */
+    border: none; /* menghilangkan border pada handle */
+    background: black; /* mengganti warna handle */
+}
+
+.noUi-tooltip{
+    background: none; /* untuk menghilangkan background pada tooltip */
+    border: none; /* untuk menghilangkan border pada tooltip */
+}
